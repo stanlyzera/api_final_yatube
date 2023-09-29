@@ -3,7 +3,12 @@
 Yatube - это веб-приложение, которое позволяет пользователям публиковать свои посты, комментировать их, подписываться на интересующих авторов и объединяться в группы по интересам.
 
 ---
+### Технический стек
+![Python](https://img.shields.io/badge/-Python-386e9d?style=flat&logo=Python&logoColor=ffd241&)
+![Django](https://img.shields.io/badge/-Django-0aad48?style=flat&logo=Django)
+![Django Rest Framework](https://img.shields.io/badge/DRF-red?style=flat&logo=Django)
 
+---
 ### **Описание**
 
 Yatube решает задачу обмена мнениями и опытом между пользователями. Каждый зарегистрированный пользователь может:
@@ -78,5 +83,8 @@ POST /v1/follow/
 
 ---
 
-Для детальной информации об API и его возможностях обратитесь к документации.
+Для детальной информации об API и его возможностях обратитесь к документации по **projecthost/redoc**
+
+---
+Автор - **Шулькин Николай** <a href="https://www.github.com/stanlyzera" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a>
 
