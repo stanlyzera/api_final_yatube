@@ -93,7 +93,7 @@ STATICFILES_DIRS = ((BASE_DIR / "static/"),)
 
 REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
-        "api.permissions.IsAuthenticatedOrAuthorOrReadOnly",
+        "api.permissions.IsAuthenticatedAndAuthorOrReadOnly",
     ],
     "DEFAULT_AUTHENTICATION_CLASSES": [
         "rest_framework_simplejwt.authentication.JWTAuthentication",
